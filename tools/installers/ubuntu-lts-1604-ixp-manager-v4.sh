@@ -337,7 +337,7 @@ if [[ -d $IXPROOT/.git ]]; then
     git fetch &>> /tmp/ixp-manager-install.log
 else
     echo -n "Cloning IXP Manager GitHub repository..."
-    git clone https://github.com/absor201/IXP.git $IXPROOT &>> /tmp/ixp-manager-install.log
+    git clone https://github.com/absor201/IXP-Manager.git $IXPROOT &>> /tmp/ixp-manager-install.log
     cd $IXPROOT
     git checkout $IXPMANAGER_VERSION &>> /tmp/ixp-manager-install.log
 fi
